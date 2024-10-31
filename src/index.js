@@ -13,6 +13,9 @@ import ChangeCar from './components/StateComponent/ChangeCar';
 import RenderWithMap from './components/RenderWithMap/RenderWithMap';
 import DemoProps from './components/Props/DemoProps/DemoProps';
 import ProductList from './components/Props/ExRenderProduct/ProductList';
+import ExXemChiTiet from './components/Props/ExXemChiTiet/ExXemChiTiet';
+import ExPhoneCart from './components/Props/ExPhoneCart/ExPhoneCart';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -43,7 +46,11 @@ root.render(
 
         {/* <DemoProps></DemoProps> */}
 
-        <ProductList></ProductList>
+        {/* <ProductList></ProductList> */}
+
+        {/* <ExXemChiTiet></ExXemChiTiet> */}
+
+        <ExPhoneCart></ExPhoneCart>
 
         
     </div>
